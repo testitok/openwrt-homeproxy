@@ -3,7 +3,7 @@ name: Build ipk for HomeProxy
 on:
   push:
     branches:
-      - 'master'
+      - 'mian'
       - 'dev'
     paths:
       - 'htdocs/**'
@@ -14,7 +14,7 @@ on:
 
   pull_request:
     branches:
-      - 'master'
+      - 'main'
       - 'dev'
     types:
       - opened
