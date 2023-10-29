@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - arm_cortex-a5_neon-vfpv4
+          - arm_cortex-a5-vfpv4
           - arm_cortex-a7
           - arm_cortex-a7_neon-vfpv4
           - x86_64
