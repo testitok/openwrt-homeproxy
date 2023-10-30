@@ -46,7 +46,7 @@ jobs:
           echo -e "4. 单一安装homeproxy与依赖。\n" >> release.txt
           
       - name: Create Release zip
-        uses: ncipollo/release-action@v1
+        uses: softprops/action-gh-release@v1
         with:
           token: ${{ secrets.TOKEN }}
           artifacts: "${{ matrix.arch }}.zip,bin/packages/${{ matrix.arch }}/packages_ci/*.ipk"
